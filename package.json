@@ -1,0 +1,24 @@
+{
+  "name": "svelte-flowbite-electron-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run build && electron ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.0.2",
+    "flowbite": "^2.5.2",
+    "flowbite-svelte": "^0.47.1",
+    "svelte": "^5.0.3",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.4.9"
+  }
+}
